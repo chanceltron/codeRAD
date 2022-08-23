@@ -8,6 +8,22 @@
   transition: ease-in-out 0.3s;
 }
 
+.navbar-toggler {
+  position: absolute;
+  right: var(--size-20);
+  top: var(--size-10);
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-toggler span {
+  background-color: transparent;
+  color: var(--white);
+  font-size: var(--size-20);
+  cursor: pointer;
+}
+
 [aria-controls="navbarDropdown"] {
   display: none;
 }
