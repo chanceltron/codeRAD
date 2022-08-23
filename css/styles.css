@@ -111,7 +111,7 @@
 
 /* Why Me Styling */
 .why-me {
-  padding: var(--size-100) 0;
+  padding: var(--size-150) 0;
 }
 
 .why-me-wrapper {
@@ -147,7 +147,7 @@
 /* Services Styling */
 .bg-contrast {
   background-color: var(--contrast);
-  padding: var(--size-100) 0;
+  padding: var(--size-150) 0;
   margin: 0 auto;
 }
 
@@ -389,6 +389,7 @@ footer .footer-top {
 
 footer .footer-col {
   justify-self: center;
+  max-width: 250px;
 }
 
 .contact-info {
