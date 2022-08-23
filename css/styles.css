@@ -55,6 +55,7 @@
 
 .bg-header {
   background-image: url(../assets/images/bg-header-1.jpg);
+  padding: var(--size-150) 0;
 }
 .video-demo {
   background-image: url(../assets/images/bg-demo.jpg);
@@ -88,15 +89,16 @@
 
 .why-me-wrapper {
   display: flex;
-  align-items: center;;
+  align-items: center;
 }
 
 .why-me-wrapper div {
   flex: 1;
 }
 
-.block-text {
+.why-me-wrapper .block-text {
   padding-right: var(--size-50);
+  max-width: 28rem;
 }
 
 .block-text span {
@@ -173,12 +175,10 @@ span.bg-color-6 {
   padding-right: 0;
 }
 
-.video-demo .block-text h2 {
-  color: var(--white);
-}
-
+.video-demo .block-text h2,
 .video-demo .block-text p {
   color: var(--white);
+  margin: var(--size-50) 0;
 }
 
 .video-box {
@@ -223,7 +223,7 @@ span.bg-color-6 {
 .price-card {
   background-color: var(--white);
   border-radius: 8px;
-  padding: var(--size-16);
+  padding: var(--size-40) var(--size-16);
 }
 
 .price-card.featured {
@@ -273,6 +273,10 @@ span.bg-color-6 {
 
 .price-card .btn-wrapper {
   text-align: center;
+}
+
+.price-card .btn-wrapper a {
+  width: 100%;
 }
 
 /* Testimonial Styling */
@@ -387,6 +391,11 @@ footer .footer-col {
   color: var(--white);
   font-weight: 500;
   margin-bottom: var(--size-16);
+  font-size: var(--size-16);
+}
+
+.services-wrapper h5 { 
+  margin-bottom: initial;
 }
 
 .services-wrapper p {
@@ -410,8 +419,8 @@ footer .footer-col {
 
 .post-inner a {
   color: var(--white);
-  font-weight: 600;
-  font-size: var(--size-14);
+  font-weight: 700;
+  font-size: .75rem;
 }
 
 .post-inner span {
